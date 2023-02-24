@@ -1,8 +1,7 @@
 {
 	"name": "hdg-bot",
-	"package name": "@hasidicdevs/Discord-Bot-Base",
-	"repository" : "https://github.com/hasidicdevs/Discord-Bot-Base",
-	"version": "0.0.1",
+	"package name": "@hasidicdevs/hdg-bot",
+	"version": "0.0.2",
 	"description": "This is just the base needed to create a simple Discord bot.",
 	"main": "index.js",
 	"scripts": {
@@ -18,9 +17,19 @@
 		"discord",
 		"bot"
 	],
-	"publishConfig": {
-		"@hasidicdevs:registry": "https://npm.pkg.github.com"
-	},
-	"author": "@hasidicdevs",
-	"license": "Mozilla Public License v2.0"
+	"author": "Yosi Leyid <yosi@hasidic.dev> (https://hasidic.dev/staff)",
+	"license": "Mozilla Public License v2.0",
+	"funding": {
+    "type":"Github",
+    "url":"https://github.com/sponsors/yosileyid"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/hasidicdevs/hdg-bot.git"
+  },
+	"bugs" : {
+    "url" : "https://github.com/hasidicdevs/hdg-bot/issues",
+    "email" : "github@hasidic.dev"
+  },
+  "homepage": "https://github.com/hasidicdevs/hdg-bot#readme"
 }
